@@ -1,0 +1,288 @@
+body {
+	background: #9a6e39 url(../images/bg_body.jpg) repeat-x top left;
+	color: #555;
+}
+a {color: #508bbf; font-weight: bold;}
+a:hover {text-decoration: none;}
+#wrap {position: relative; background: url(../images/bg_cwrap.jpg) repeat-y ; padding: 0 auto; width: 960px;}
+#header {position: relative; background: url(../images/bg_header.jpg) no-repeat;
+width: 960px; margin: 0; padding:0;}
+#header h2 a {
+	background:transparent url(../images/img_logo.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding-top:107px;
+	position:relative;
+	text-decoration:none;
+	width:340px;
+	float:left;
+}
+#header h3 {
+	background:transparent url(../images/bg_tagline.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding-top:107px;
+	position:relative;
+	text-decoration:none;
+	width:334px;
+	float:right;
+	margin: 0 10px;
+}
+#nav-contain {
+clear: both;
+background: url(../images/bg_nav.jpg) repeat-x top left;
+width: 940px;
+margin: 0 10px;
+height: 26px;
+padding: 8px 0 0;
+}
+
+ul#nav li {float: left; display: inline; color: #eee;}
+ul#nav li a {
+	padding: 9px;
+	color: #eee;
+	font-weight: normal;
+	text-decoration: none;
+}
+ul#nav li a:hover {background: #BD8F40;}
+#nav-contain div#search {float: right; margin: 0 10px 0 0;} 
+#nav-contain input {background: #799ebf; border: 1px solid #fff; padding: 2px; color: #eee;}
+#nav-contain #q {width:150px;}
+#nav-contain input#search-submit {padding:1px 2px; margin: 0 0 0 5px;}
+#nav-contain input#search-submit:hover {cursor: pointer; background: #508bbf;}
+
+div#feature {position: relative; background: url(../images/bg_cwrap.jpg) repeat-y; width: 940; padding: 10px 10px 0;}
+div#feature-left {float: left; width: 758px;}
+div#feature-left h1 a {
+	clear: both;
+	background:transparent url(../images/img_guy.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding:278px 0 0;
+	position:relative;
+	text-decoration:none;
+	width:758px;
+	float: left;
+}
+div#feature-left a.resume {position: absolute; top: 225px; left: 540px; float:right; z-index: 100; color: #eee; font-size: 14px; text-decoration: none;}
+div#feature-left a.resume:hover, div#feature-right a.more:hover {text-decoration: underline;}
+div#feature-right {float:right; margin:0; padding:0; width: 181px;}
+div#feature-right h1 a {
+	clear: both;
+	background:transparent url(../images/img_client.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding:278px 0 0;
+	position:relative;
+	text-decoration:none;
+	width:182px;
+}
+div#feature-right a.more {position: absolute; top: 225px; left: 850px; float:right; z-index: 100; font-size: 14px; text-decoration: none; color: #5872a5;}
+
+body.home div#container {margin: 0 10px 10px;}
+
+div#sidebar {background:transparent url(../images/bg_callout.jpg) no-repeat scroll left top; height: 267px; padding: 0px;width: 339px; margin: 10px 0 0;}
+div#sidebar h2, div#r-side h3 {padding: 5px 20px; background: #bd8f40; margin: 10px 0;font-weight: lighter; color: #eee; font-size: 18px; }
+div#sidebar h3 {padding: 0 20px; margin: 0 0 2px; font-size: 15px; line-height: 17px;}
+div#sidebar p {padding: 0 20px; margin: 0 0 8px; font-size: 14px; line-height: 17px;}
+div#sidebar .event {padding: 5px 0;}
+div#sidebar p {color: #eee; }
+div#sidebar p.right {text-align: right;}
+
+#r-side div.resume {margin: 20px 0;}
+#r-side div.coaching {margin: 0px 0 20px;}
+#r-side div.resume a.resume, #r-side div.coaching a.coaching {
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding-top:116px;
+	position:relative;
+	text-decoration:none;
+	width:220px;
+	float:right;
+}
+#r-side div.resume a.resume {background:#333 url(../images/bg_sidebar-220.jpg) no-repeat scroll left top;}
+#r-side div.coaching a.coaching {background:#333 url(../images/bg_sidebar-coaching.jpg) no-repeat scroll left top;}
+#r-side div.resume a.submit {color:#e2e2e2; float:right; padding:0 20px 0 0; position:relative; top:-35px; text-decoration: none;}
+#r-side div.coaching a.submit {color:#e2e2e2; float:left; padding:0 0 0 20px; position:relative; top:-33px; text-decoration: none;}
+#r-side div.resume a.submit:hover, #r-side div.coaching a.submit:hover {text-decoration: underline;}
+body.home div#content {margin: 10px;}
+body.home div#content h1 {margin: 0 10px;}
+body.secondary div#content h1, div#admin-content h1 {padding: 20px 0 0; margin: 0 0 10px;  border-bottom: 1px solid #E8D0B2;}
+
+div#content h1, div#admin-content h1,
+div#content h2, div#admin-content h2,
+div#content h3, div#admin-content h3, 
+div#content h4, div#admin-content h4,
+div#content h5, div#admin-content h5,
+div#content h6, div#admin-content h6
+{color: #734002; font-weight: lighter; font-size: 24px;}
+
+body.home div#content p {color: #555; padding: 0 10px 10px;}
+body.secondary div#content p, div#admin-content p {color: #555; padding: 0 0 10px;}
+div#content ul, div#content ol, div#admin-content ul, div#admin-content ol {margin: 0 10px 0 40px;}
+div#content ul li, div#admin-content ul li {list-style-image: url(../images/btn_bullet.jpg);}
+div#content ol li, div#admin-content ul li {list-style-type: decimal;}
+div#content p.bot {margin-bottom: 40px;}
+body.secondary div#content ul, div#admin-content ul {margin: 0 0 20px 40px;}
+body.secondary div#content h2, div#admin-content h2 {font-size: 21px; text-transform: capitalize; margin: 0 0 10px;}
+body.secondary div#content h3, div#admin-content h3 {font-size: 18px;}
+body.secondary div#content input, div#admin-content input {margin: 0 0 10px;}
+
+div#content table {margin: 0 0 10px; background: #e2e2e2; width: 580px;}
+div#admin-content table.job-cat-list {margin: 0 0 10px; background: #e2e2e2; width: 100%;}
+div#admin-content table.list {margin: 0 0 10px; background: #e2e2e2; width: 400px;}
+div#content table thead tr, div#admin-content table.job-cat-list thead tr, div#admin-content table.list thead tr {background: #BF8A26; border-bottom: 1px solid #fff;}
+div#content table thead th, div#admin-content table.job-cat-list thead th, div#admin-content table.list thead th {padding: 3px; color: white;}
+div#content table thead th a, div#admin-content table.job-cat-list th a, div#admin-content table.list th a {color: white;}
+div#content table tbody tr, div#admin-content table.job-cat-list tbody tr, div#admin-content table.list tbody tr {background: #E5CEAF; border-bottom: 1px solid #fff;}
+div#content table tbody td, div#admin-content table.job-cat-list tbody td {padding: 3px;}
+div#admin-content table.list tbody td {padding: 3px 7px;}
+div#content table.job {width: 500px;}
+div#content table.job tr {background: #D2AD67;}
+div#content table.job tr.even {background: #E5CEAF;}
+div#content table.job tr td ul li {list-style-type: circle;}
+
+div#content div.form-group {clear: both; float: left; margin: 0px 10px 5px; width: 390px;}
+div#content div.form-group h3 {border-bottom: 1px solid #E8D0B2; margin-bottom: 10px; padding: 0px;}
+div#content div.form-group input.resume {margin: 0 0 5px;}
+div#content div.form-group input, div#content div.form-group select {float: right; text-align: left; margin: 0 0 0 20px;}
+div#content div.form-group select {width: 155px;}
+div#content div.form-group.left input {float: left; margin: 0 0 20px;}
+div#content div.form-group label {float: left; width: 200px; text-align: right;}
+
+div#content a.submit {background: #799ebf; border: 1px solid #eee; padding: 5px; color: #eee; font-size: 13px; margin: 0 5px 0 0; text-decoration: none;}
+div#content a.submit:hover {background: #508bbf;}
+div#content span#sharethis_0 {float: right; margin-right:70px; width:100px;}
+div#content span#sharethis_1 {float: right; margin-right:70px; width:100px;}
+
+div#content div.form-group.checkboxes input {float: none; text-align: left; margin: 0 0 0 20px;}
+div#content div.form-group.checkboxes div.regions {margin-bottom: 10px;}
+div#content div.form-group.checkboxes div.region {margin-left: 220px;}
+div#content div.form-group.checkboxes label {float: left; width: 200px; text-align: right;}
+
+div#content div.form-group textarea {width: 380px; height: 150px; font-family: Helvetica, Arial, sans-serif; font-size: 13px; padding: 3px;}
+
+div#content span.req {color: red;}
+
+body.secondary div#content p.testimonial {border: 1px solid #E8D0B2; margin: 10px 0 20px; padding: 10px 20px;}
+
+div#r-side ul {float: right; background: #D2AD67; width: 220px; float: left; margin: 20px 0; padding: 5px 0 10px; }
+div#r-side ul li {list-style-type: circle; margin: 0 0 3px 20px; padding: 0 15px 0 5px; line-height: 18px; color: #bf8a26; width: 190px;}
+div#r-side ul li.header {margin: 0; padding: 0; list-style: none; width: 220px;}
+div#r-side ul li a {text-transform: capitalize;}
+
+input.submit, input.edit, input.delete, input.save {background: #799ebf; border: 1px solid #eee; padding: 1px 2px; color: #eee; font-size: 13px; margin: 3px 0 15px;}
+div#admin-content input.edit, div#admin-content input.delete, div#admin-content input.save {width: 60px; margin-bottom: 20px;}
+input.submit:hover, input.edit:hover, input.delete:hover, input.save:hover {cursor: pointer; background: #508bbf;}
+
+div#footer {clear:both; background:transparent url(../images/bg_footer.jpg) no-repeat scroll left top; position: relative; border-top: 1px solid #e8d0b2; margin:0; padding: 10px; width: 940px; height: 80px;}
+#footer p {color: #bf8a26;}
+#footer p.right a.right {font-weight: normal; color: #bf8a26;}
+ul#footer-nav {float:left; width: 700px;}
+ul#footer-nav li {float:left; display:inline; margin: 0; padding: 0; color: #508BBF; font-size: 12px;}
+ul#footer-nav li a {padding: 0 4px; font-weight: normal; font-size: 12px;}
+#footer p {clear: both;}
+#footer p.right {clear: none; float:right;}
+
+div#admin-sidebar {margin: 0 10px 10px;}
+div#admin-content {margin: 10px; padding: 0;}
+
+div#admin-content span.menuButton a {padding: 0 3px;}
+
+div#admin-sidebar ul {float: right; background: #D2AD67; width: 139px; float: left; margin: 10px 0; padding: 10px; }
+div#admin-sidebar ul li {list-style: none; margin: 0 0 3px; padding: 0; line-height: 18px;}
+
+/*div#admin-content div.message {background: #FF7F7F; border: 1px solid #DF0000; color: #DF0000; font-weight: bold; padding: 3px 10px; font-style: italic; margin: 0 0 10px;}*/
+div#admin-content form {margin: 0 0 20px;}
+div#admin-content input {width: 120px; margin: 0 0 10px;}
+
+div#admin-content table {background: none;}
+div#admin-content table tr {background: none;}
+
+div#admin-content div.paginateButtons span {padding: 0 3px;}
+div#admin-content div.paginateButtons a {padding: 0 3px;}
+
+div#admin-content div#description_parent {background: #bf8a25;}
+div#admin-content table.mceLayout tbody tr td {padding: 2px;}
+div#admin-content table.mceLayout td a.mceButton {padding: 0px; margin: 0; background: #e2e2e2; border: 1px solid #555;}
+div#admin-content table.mceLayout td a.mceButton span {margin: 0;}
+div#admin-content table.mceLayout td a.mceButton span:hover {cursor: pointer; border: 1px solid #333;}
+
+div#admin-content table.mceLayout, div#admin-content div#description_parent tbody  {border: 1px solid #e2e2e2; background: #fff;}
+div#admin-content input#positionTitle {width: 150px;}
+
+
+#resumePage .errorbox {
+    padding: 20px;
+    padding-left:112px;
+    background-color: #e6b4b4;
+    background-image: url('../images/error.png');
+    background-position:top left;
+    background-repeat:no-repeat;
+    margin:10px;
+    color:#7b0000;
+    font-weight:bold;
+}
+
+#resumePage #error {
+    border: 2px solid #7b0000;
+    font-size:18px;
+}
+#resumePage #form-errors {
+    background-position:10px 10px !important;
+    font-size:14px;
+}
+#resumePage .messagebox {
+    border:2px solid #816907;
+    font-size:18px;
+    padding:20px;
+    padding-left:112px;
+    background-color: #ffeda6;
+    background-image: url('../images/warning.png');
+    background-position:top left;
+    background-repeat:no-repeat;
+    margin:10px;
+    color:#504000;
+    font-weight:bold;
+}
+#resumePage div.form-group {
+    width:415px !important;
+}
+#thankYouPage .success h2 {
+    font-size:32px !important;
+    font-weight:bold;
+    color:#007d01;
+}
+#thankYouPage .success {
+    border:2px solid #007d01;
+    font-size:18px;
+    padding:20px;
+    padding-left:118px;
+    background-color: #d2f0d2;
+    background-image: url('../images/success.png');
+    background-position:10px 10px !important;
+    background-repeat:no-repeat;
+    margin:50px;
+    color:#009201;
+    font-weight:bold;
+}

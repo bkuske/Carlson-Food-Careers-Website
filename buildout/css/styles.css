@@ -1,0 +1,118 @@
+body {
+	background: #9a6e39 url(file:///Users/brandonhundt/workspace/cfc/buildout/images/bg_body.jpg) repeat-x top left;
+	color: #555;
+}
+a {color: #508bbf; font-weight: bold;}
+a:hover {text-decoration: none;}
+#wrap {position: relative; background: url(../images/bg_cwrap.jpg) repeat-y ; padding: 0 auto; width: 960px;}
+#header {position: relative; background: url(../images/bg_header.jpg) no-repeat;
+width: 960px; margin: 0; padding:0;}
+#header h2 a {
+	background:transparent url(../images/img_logo.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding-top:107px;
+	position:relative;
+	text-decoration:none;
+	width:340px;
+	float:left;
+}
+#header h3 {
+	background:transparent url(../images/bg_tagline.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding-top:107px;
+	position:relative;
+	text-decoration:none;
+	width:334px;
+	float:right;
+	margin: 0 10px;
+}
+#nav-contain {
+clear: both;
+background: url(../images/bg_nav.jpg) repeat-x top left;
+width: 940px;
+margin: 0 10px;
+height: 26px;
+padding: 8px 0 0;
+}
+
+ul#nav li {float: left; display: inline; color: #eee;}
+ul#nav li a {
+	padding: 11px 8px;
+	color: #eee;
+	font-weight: normal;
+	text-decoration: none;
+}
+ul#nav li a:hover {background: #BD8F40;}
+#nav-contain div#search {float: right; margin: 0 10px 0 0;} 
+#nav-contain input {background: #799ebf; border: 1px solid #fff; padding: 2px; color: #eee;}
+#nav-contain input#search-submit {width: 44px; overflow: hidden; padding: 1px; margin: 0 0 0 5px;}
+#nav-contain input#search-submit:hover {cursor: pointer; background: #508bbf;}
+
+div#feature {position: relative; background: url(../images/bg_cwrap.jpg) repeat-y; width: 940; padding: 10px;}
+div#feature-left {float: left; width: 758px;}
+div#feature-left h1 a {
+	clear: both;
+	background:transparent url(../images/img_guy.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding:278px 0 0;
+	position:relative;
+	text-decoration:none;
+	width:758px;
+	float: left;
+}
+div#feature-left a.resume {position: absolute; top: 225px; left: 540px; float:right; z-index: 100; color: #eee; font-size: 14px; text-decoration: none;}
+div#feature-left a.resume:hover, div#feature-right a.more:hover {text-decoration: underline;}
+div#feature-right {float:right; margin:0; padding:0; width: 181px;}
+div#feature-right h1 a {
+	clear: both;
+	background:transparent url(../images/img_client.jpg) no-repeat scroll left top;	
+	border:none;
+	display:block;
+	font-size:1%;
+	height:0;
+	line-height:1%;
+	overflow:hidden;
+	padding:278px 0 0;
+	position:relative;
+	text-decoration:none;
+	width:182px;
+}
+div#feature-right a.more {position: absolute; top: 225px; left: 850px; float:right; z-index: 100; font-size: 14px; text-decoration: none; color: #5872a5;}
+
+div#sidebar {background:transparent url(../images/bg_callout.jpg) no-repeat scroll left top; height: 267px; padding: 0px;width: 339px; margin: 10px 0 0;}
+div#sidebar h2 {padding: 5px 20px; background: #bd8f40; margin: 10px 0 0;font-weight: lighter; color: #eee; font-size: 18px; }
+div#sidebar h3, div#sidebar p {padding: 0 20px; margin: 0; font-size: 13px; line-height: 17px;}
+div#sidebar .event {padding: 10px 0;}
+div#sidebar p {color: #eee; }
+div#sidebar p.right {text-align: right;}
+
+div#content {margin: 10px;}
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5, div#content h6 {color: #734002; font-weight: lighter; font-size: 24px;}
+div#content p {color: #555; padding: 0 10px 10px 10px;}
+div#content ul, div#content ol {margin: 0 10px 0 40px;}
+div#content ul li {list-style-image: url(../images/btn_bullet.jpg);}
+div#content ol li {list-style-type: decimal;}
+
+div#footer {clear:both; background:transparent url(../images/bg_footer.jpg) no-repeat scroll left top; position: relative; border-top: 1px solid #e8d0b2; margin:0; padding: 10px; width: 940px; height: 80px;}
+#footer p {color: #bf8a26;}
+#footer p.right a.right {font-weight: normal; color: #bf8a26;}
+ul#footer-nav {float:left; width: 700px;}
+ul#footer-nav li {float:left; display:inline; margin: 0; padding: 0; color: #508BBF;}
+ul#footer-nav li a {padding: 0 4px; font-weight: normal}
+#footer p {clear: both;}
+#footer p.right {clear: none; float:right;}

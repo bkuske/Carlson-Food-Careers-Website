@@ -1,0 +1,2 @@
+grails clean && grails war cfc-prod.war && scp -i /home/colin/colin-september09.pem ./cfc-prod.war root@foodcareers.com:/root/cfc-prod.war && ssh -i /home/colin/colin-september09.pem root@foodcareers.com "/etc/init.d/tomcat6_foodcareers.com stop && rm -rf /var/lib/tomcat6/instances/foodcareers.com/webapps/ROOT && cp -v /root/cfc-prod.war /var/lib/tomcat6/instances/foodcareers.com/webapps/ROOT.war && touch /var/lib/tomcat6/instances/foodcareers.com/webapps/ROOT.war && /etc/init.d/tomcat6_foodcareers.com start"
+

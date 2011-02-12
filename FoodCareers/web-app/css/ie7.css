@@ -1,0 +1,8 @@
+ul#nav li a {display: block; height: 26px;}
+
+#r-side div.coaching a.submit {position: absolute; top: 380px;}
+
+div#nav-contain div#search {position: absolute; right: 10px; top: 115px;}
+
+ul#nav {position: absolute; top: 114px;}
+div#search {position: absolute; top: 114px; right: 10px;}

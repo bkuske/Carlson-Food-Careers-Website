@@ -1,0 +1,3 @@
+scp -i /home/colin/colin-september09.pem ./ROOT.war root@foodcareers.webmentality.com:/root/ROOT.war
+--foodcareersdeployer:cfc13374van
+
