@@ -15,6 +15,7 @@ environments {
 		dataSource {
 			//dbCreate = "create-drop" // one of 'create', 'create-drop','update'
 			//dbCreate = "create-drop"
+			dbCreate = create
 			url = "jdbc:mysql://localhost/foodcareers_dev"
 		}
 	}
@@ -35,7 +36,7 @@ environments {
 	}
 	production {
 		dataSource {
-			//dbCreate = "create"
+			dbCreate = "create"
 			username = "foodcareers"
 			password = "cfc139771a" 
 			url = "jdbc:mysql://localhost/foodcareers_prod"
