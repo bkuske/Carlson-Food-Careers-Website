@@ -214,7 +214,7 @@ div#admin-sidebar ul li {list-style: none; margin: 0 0 3px; padding: 0; line-hei
 
 /*div#admin-content div.message {background: #FF7F7F; border: 1px solid #DF0000; color: #DF0000; font-weight: bold; padding: 3px 10px; font-style: italic; margin: 0 0 10px;}*/
 div#admin-content form {margin: 0 0 20px;}
-div#admin-content input {width: 120px; margin: 0 0 10px;}
+div#admin-content input:not([type=checkbox]) {width: 120px; margin: 0 0 10px;}
 
 div#admin-content table {background: none;}
 div#admin-content table tr {background: none;}
