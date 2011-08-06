@@ -36,7 +36,7 @@ environments {
 	}
 	production {
 		dataSource {
-			dbCreate = "create"
+			//dbCreate = "update"
 			username = "foodcareers"
 			password = "cfc139771a" 
 			url = "jdbc:mysql://localhost/foodcareers_prod"
